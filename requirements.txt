@@ -1,0 +1,12 @@
+pandas
+numpy 
+scikit-learn
+langchain
+langgraph
+langchain_community
+langchain_openai
+langchain_core
+faiss-cpu
+streamlit
+tavily-python
+langchain_groq
