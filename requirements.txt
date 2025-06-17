@@ -10,3 +10,5 @@ faiss-cpu
 streamlit
 tavily-python
 langchain_groq
+pydantic
+watchdog
