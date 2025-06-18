@@ -19,7 +19,7 @@ class LoadStreamlitUI:
             usecase_options=self.config.get_usecase_options()
             
             # LLM Selection
-            self.user_controls['selected_llm']=st.selectbox("select LLM", llm_options)
+            self.user_controls['selected_llm']=st.selectbox("select LLM", llm_options, index=0)
             
             if self.user_controls['selected_llm']=='groq':
                 # Model Selection
